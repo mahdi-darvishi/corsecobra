@@ -113,15 +113,6 @@ export default function Home() {
                       />
                     ))}
                   </div>
-                  <div className="flex gap-0.5 mb-2">
-                    {[...Array(5)].map((_, index) => (
-                      <Star
-                        key={index}
-                        className="h-5 w-5 text-green-600 fill-green-600"
-                      />
-                    ))}
-                  </div>
-
                   <p>
                     <span className="font-semibold">1.250</span> happy customers
                   </p>

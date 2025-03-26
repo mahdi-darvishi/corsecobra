@@ -56,6 +56,7 @@ const DesignConfigurator = ({
         variant: "destructive",
       });
     },
+
     onSuccess: () => {
       router.push(`/configure/preview?id=${configId}`);
     },
