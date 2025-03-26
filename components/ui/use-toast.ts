@@ -14,7 +14,6 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
   action?: ToastActionElement;
 };
-
 /*  eslint-disable-next-line  */
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",

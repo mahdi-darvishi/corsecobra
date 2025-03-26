@@ -4,9 +4,8 @@ import { notFound } from "next/navigation";
 import DesignConfigurator from "./DesignConfigurator";
 
 interface PageProps {
-  searchParams: {
-    [key: string]: string | string[] | undefined;
-  };
+  params: { slug: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }
 
 const page = async ({ searchParams }: PageProps) => {
